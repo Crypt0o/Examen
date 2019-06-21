@@ -6,7 +6,7 @@ figure
 t=0:.01:11; 
 
 % generam vectorul de intrare u (calculele se fac vectorial!)
-u= t;
+u= dirac(t);
 
 % se determina numaratorul (num) si numitorul (den) 
 % ale functiei de transfer

@@ -6,7 +6,7 @@ function y = myimpulse(H)
     Hs = simplify( poly2sym(num, s) / poly2sym(den, s) );
  
     
-    Y = 1/(s^2) * Hs
+    Y = 1 * Hs;
     y = simplify( ilaplace(Y) );
 end
 
